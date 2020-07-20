@@ -1,0 +1,7 @@
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\bin\Debug\Week2Hw.exe.config
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\bin\Debug\Week2Hw.exe
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\bin\Debug\Week2Hw.pdb
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\obj\Debug\Week2Hw.csprojAssemblyReference.cache
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\obj\Debug\Week2Hw.csproj.CoreCompileInputs.cache
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\obj\Debug\Week2Hw.exe
+C:\Users\rnovak1\source\repos\Week2Hw\Week2Hw\obj\Debug\Week2Hw.pdb
