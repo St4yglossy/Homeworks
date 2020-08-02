@@ -18,12 +18,15 @@ namespace PayrollApp
 
         public Manager()
         {
-
+            HourlyRate = 50;
+            Allowances = 100;
         }
 
         public static void CalulateManagerPay()
-        { 
-        
+        {
+
+            Basepay = HourlyRate * HoursWorked;
+
         }
     }
 }

@@ -18,12 +18,13 @@ namespace PayrollApp
 
         public Contractor()
         {
-
+            HourlyRate = 30;
         }
 
         public static void CalulateContractorPay()
-        { 
-        
+        {
+            BasePay = HourlyRate * HoursWorked;
+            TotalPay = BasePay + (OverTimeRate * OverTimeHours);
         }
 
     }
