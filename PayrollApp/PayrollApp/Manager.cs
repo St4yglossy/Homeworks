@@ -10,7 +10,7 @@ namespace PayrollApp
     {
         //Properties
         public double HourlyRate { get; set; }
-        public double Hoursworked { get; set; }
+        public double HoursWorked { get; set; }
         public string Name { get; set; }
         public double BasePay { get; set; }
         public double TotalPay { get; set; }
@@ -22,10 +22,11 @@ namespace PayrollApp
             Allowances = 100;
         }
 
-        public static void CalulateManagerPay()
+        public double CalulateManagerPay()
         {
 
-            Basepay = HourlyRate * HoursWorked;
+            BasePay = HourlyRate * HoursWorked;
+            return BasePay;
 
         }
     }

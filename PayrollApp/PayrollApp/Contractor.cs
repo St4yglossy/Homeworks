@@ -13,6 +13,9 @@ namespace PayrollApp
         public double Hoursworked { get; set; }
         public string Name { get; set; }
         public double BasePay { get; set; }
+
+        public double TotalPay { get; set; }
+
         public double OverTimeRate { get; set; }
         public double OverTimeHours { get; set; }
 
@@ -21,10 +24,11 @@ namespace PayrollApp
             HourlyRate = 30;
         }
 
-        public  void CalulateContractorPay()
+        public double CalulateContractorPay()
         {
             BasePay = HourlyRate * Hoursworked;
-           double TotalPay = BasePay + (OverTimeRate * OverTimeHours);
+           TotalPay = BasePay + (OverTimeRate * OverTimeHours);
+            return TotalPay; 
         }
 
     }

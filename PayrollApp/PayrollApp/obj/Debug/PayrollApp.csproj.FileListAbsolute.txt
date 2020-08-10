@@ -1,2 +1,7 @@
 C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\obj\Debug\PayrollApp.csprojAssemblyReference.cache
 C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\obj\Debug\PayrollApp.csproj.CoreCompileInputs.cache
+C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\bin\Debug\PayrollApp.exe.config
+C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\bin\Debug\PayrollApp.exe
+C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\bin\Debug\PayrollApp.pdb
+C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\obj\Debug\PayrollApp.exe
+C:\Users\rnovak1\source\repos\PayrollApp\PayrollApp\obj\Debug\PayrollApp.pdb
