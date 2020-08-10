@@ -21,10 +21,10 @@ namespace PayrollApp
             HourlyRate = 30;
         }
 
-        public static void CalulateContractorPay()
+        public  void CalulateContractorPay()
         {
-            BasePay = HourlyRate * HoursWorked;
-            TotalPay = BasePay + (OverTimeRate * OverTimeHours);
+            BasePay = HourlyRate * Hoursworked;
+           double TotalPay = BasePay + (OverTimeRate * OverTimeHours);
         }
 
     }

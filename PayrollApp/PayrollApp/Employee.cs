@@ -26,9 +26,10 @@ namespace PayrollApp
 
         //methods
         //Calculates pay based on hours worked and hourly rate
-        public static void CaluclateEmployeePay()
+        public  void CaluclateEmployeePay()
         {
-            Console.WriteLine($"Your current pay is {hourlyRate} * {HoursWorked}");
+            BasePay = HoursWorked * HourlyRate;
+            Console.WriteLine($"Your current pay is {BasePay}");
         }
 
     }
